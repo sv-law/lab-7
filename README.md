@@ -1,6 +1,12 @@
 # blog-api
 
 This repository contains the RESTful API for accessing the blog database.
+## clone
+
+```
+git clone https://github.com/choiruzain-latrobe/Lab-7-.git
+```
+
 
 ## mock-rest-server
 ```
