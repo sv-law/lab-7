@@ -13,6 +13,10 @@ git clone https://github.com/choiruzain-latrobe/Lab-7-.git
 cd mock-rest-server
 docker compose up --build
 ```
+run 
+```
+[http](http://localhost:3000/)
+```
 
 
 ## blog
