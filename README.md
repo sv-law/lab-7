@@ -14,7 +14,7 @@ cd mock-rest-server
 docker compose up --build
 ```
 
-run 
+then, call the localhost 
 
 [http:localhost:3000](http://localhost:3000/)
 
