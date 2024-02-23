@@ -17,10 +17,6 @@ docker compose up --build
 run 
 
 [http:localhost:3000](http://localhost:3000/)
-```
-
-```
-
 
 ## blog
 ```
