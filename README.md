@@ -9,7 +9,7 @@ Follow these steps to set up and run the Blog API:
 1. **Clone the Git Repository:**
 
     ```bash
-    git clone https://github.com/choiruzain-latrobe/Lab-7-.git
+    git clone https://github.com/choiruzain-latrobe/lab-7.git
     ```
 
 2. **Run the Mock Rest Server:**
