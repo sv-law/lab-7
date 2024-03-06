@@ -26,3 +26,5 @@ USER node
 # Start the server on exposed port 3000.
 EXPOSE 3000
 CMD [ "json-server", "--watch", "db.json" ]
+
+# Start the server on exposed port 3000.
