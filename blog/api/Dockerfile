@@ -5,9 +5,7 @@
 # by Docker Compose to build a Docker image for our application.
 
 # Base this image on an official Node.js long term support image.
-#FROM node:8.1.2-alpine
-#FROM  --platform=linux/arm64 node:16.14.0-alpine
-FROM node:18.16.0-alpine
+FROM node:8.1.2-alpine
 
 # Install some additional packages that we need.
 RUN apk add --no-cache tini curl bash sudo
