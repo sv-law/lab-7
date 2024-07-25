@@ -1,6 +1,10 @@
 {
   "posts": [
     { "id": 1, "title": "First post", "author": "John" },
-    { "id": 2, "title": "Second post", "author": "Fred" }
+    { "id": 2, "title": "Second post", "author": "Fred" },
+    { "id": 3, "title": "Third post", "author": "Choiru" },
+    { "id": 4, "title": "Fourth post", "author": "Tony" },
+    { "id": 5, "title": "Fifth post", "author": "Madiha" }
+
   ]
 }

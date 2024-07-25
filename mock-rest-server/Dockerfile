@@ -8,8 +8,8 @@ RUN apk add --no-cache tini curl bash sudo
 # for us, like forwarding signals and reaping zombie processes.
 ENTRYPOINT ["/sbin/tini", "--"]
 
-# Install simple REST server module
-RUN npm --silent install -g json-server@0.8.14
+# Install nodemon and json-server globally
+RUN npm --silent install -g nodemon json-server@0.8.14
 
 # Create a working directory for our application.
 RUN mkdir -p /app
@@ -23,9 +23,9 @@ RUN chown -R node:node /app \
  && echo "node ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/90-node
 USER node
 
-# Start the server on exposed port 3000.
-EXPOSE 3000
-CMD [ "json-server", "--watch", "db.json" ]
+# Expose the port specified in the environment variable, defaulting to 3000.
+ARG PORT=3000
+EXPOSE $PORT
 
-# Start the server on exposed port 3000.
-#23434
+# Start the server on the specified port using nodemon
+CMD ["sh", "-c", "npx nodemon --watch . --ext js,json --exec 'json-server --watch db.json --port ${PORT}'"]
