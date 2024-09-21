@@ -10,6 +10,7 @@ routes.connect = (app) => {
   // Use the index controller for /
   app.use('/', index);
   // TODO: Use the posts controller for /posts
+  app.use('/posts', posts)
 
 };
 
