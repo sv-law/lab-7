@@ -1,10 +1,29 @@
 {
   "posts": [
-    { "id": 1, "title": "First post", "author": "John" },
-    { "id": 2, "title": "Second post", "author": "Fred" },
-    { "id": 3, "title": "Third post", "author": "Choiru" },
-    { "id": 4, "title": "Fourth post", "author": "Tony" },
-    { "id": 5, "title": "Fifth post", "author": "Madiha" }
-
+    {
+      "author": "Jim",
+      "title": "Goes to Bali",
+      "id": 1
+    },
+    {
+      "id": 3,
+      "title": "Third post",
+      "author": "Choiru"
+    },
+    {
+      "id": 4,
+      "title": "Fourth post",
+      "author": "Tony"
+    },
+    {
+      "id": 5,
+      "title": "Fifth post",
+      "author": "Madiha"
+    },
+    {
+      "author": "Andrew",
+      "title": "Flying to the sky",
+      "id": 6
+    }
   ]
 }
