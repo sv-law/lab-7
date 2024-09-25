@@ -1,5 +1,3 @@
-import { connect } from './src/config/routes';
-
 const path = require('path');
 const dbConfig = require('./src/config/database');
 // Build connecteion URL string
