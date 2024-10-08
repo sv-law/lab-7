@@ -14,8 +14,16 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Post.init({
-    title: DataTypes.STRING,
-    content: DataTypes.TEXT
+    title: {
+      allowNull: false,
+      type: DataTypes.STRING, 
+      validate: {notEmpty: true}
+    },
+    content: {
+      allowNull: false,
+      type: DataTypes.TEXT, 
+      validate: {notEmpty: true}
+    }
   }, {
     sequelize,
     modelName: 'Post',
